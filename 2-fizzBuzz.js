@@ -8,13 +8,13 @@ const resultado = 15;
 function fizzBuzz(value) {
     for (value; value > 0; value--) {
         if (value % 3 === 0 && value % 5 === 0) {
-            console.log("FizzBuzz")
+            console.log("FizzBuzz");
         } else if (value % 3 === 0 && value % 5 != 0) {
-            console.log("Fizz")
+            console.log("Fizz");
         } else if (value % 3 != 0 && value % 5 === 0) {
-            console.log("Buzz")
+            console.log("Buzz");
         } else {
-            console.log(value)
+            console.log(value);
         }
     }
 }

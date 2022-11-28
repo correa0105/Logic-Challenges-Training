@@ -7,7 +7,7 @@ let numeroEntrada = offset;
 let somaMultiplos = 0;
 
 for (offset; offset <= limit; offset++) {
-    if(offset % numeroEntrada === 0) somaMultiplos += offset
+    if(offset % numeroEntrada === 0) somaMultiplos += offset;
 }
 
-console.log(somaMultiplos)
+console.log(somaMultiplos);
